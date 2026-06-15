@@ -8,7 +8,7 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 logger = logging.getLogger(__name__)
 
 # Load API Key from Railway Variables
-API_KEY = os.getenv("6a307c307d9c53.23989603")
+API_KEY = os.getenv("EODHD_API_KEY")
 SYMBOL = "NVDA.US"  # Ensure you add the exchange suffix
 
 client = APIClient(API_KEY)
